@@ -149,7 +149,7 @@ while True:
         if strs == "/exit":
             break
         if strs == "/help":
-            print("The program calculates the value of the expression. It only accepts digits and operators")
+            print("The program calculates the value of the expression. It only accepts digits and operators. Please separate with spaces if using numbers with more than one digit.")
             continue
         else:
             print("Unknown command")
